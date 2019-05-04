@@ -4,11 +4,7 @@ public class Escada implements Validador {
 
 	@Override
 	public int validar(Double somatorio, Double theta) {
-		System.out.println("Somatorio: " + somatorio);
-		if (somatorio > theta) {
-			return 1;
-		}
-		return 0;
+		return somatorio > theta ? 1 : 0;
 	}
 
 }

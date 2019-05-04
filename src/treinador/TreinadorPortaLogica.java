@@ -1,14 +1,12 @@
-package br.com.rn.nucleo;
+package treinador;
 
 import br.com.rn.neurorio.Perceptron;
 import br.com.rn.validador.Escada;
 
-public class Treinador {
+public class TreinadorPortaLogica extends Treinador {
 
-	private static Double fator = 0.01;
-
-	public static void main(String[] args) {
-		int[][] conjuntoEntradas = { { 1, 1 }, { 1, 0 }, { 0, 1 }, { 0, 0 } };
+	public void treinar() {
+		double[][] conjuntoEntradas = { { 1, 1 }, { 1, 0 }, { 0, 1 }, { 0, 0 } };
 		int[] saidasEsperadas = { 0, 0, 0, 1 };
 		int erro, saida, passos = 0;
 
