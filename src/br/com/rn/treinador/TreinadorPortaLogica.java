@@ -1,4 +1,4 @@
-package treinador;
+package br.com.rn.treinador;
 
 import br.com.rn.neurorio.Perceptron;
 import br.com.rn.validador.Escada;

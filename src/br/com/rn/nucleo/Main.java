@@ -2,8 +2,8 @@ package br.com.rn.nucleo;
 
 import java.io.IOException;
 
-import treinador.Treinador;
-import treinador.TreinadorIris;
+import br.com.rn.treinador.Treinador;
+import br.com.rn.treinador.TreinadorIris;
 
 public class Main {
 

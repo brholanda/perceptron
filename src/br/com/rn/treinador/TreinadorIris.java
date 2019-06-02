@@ -1,4 +1,4 @@
-package treinador;
+package br.com.rn.treinador;
 
 import java.io.BufferedReader;
 import java.io.IOException;
