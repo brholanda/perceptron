@@ -1,4 +1,4 @@
-# RedeNeural
+# perceptron
 Implementação experimental de perceptron
 
 ## Getting Started
