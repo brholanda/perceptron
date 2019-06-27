@@ -2,13 +2,13 @@ package br.com.rn.neurorio;
 
 import java.util.Random;
 
-import br.com.rn.validador.Escada;
+import br.com.rn.validador.Degrau;
 
 public class Perceptron extends Neuronio{
 
 	public Perceptron() {}
 	
-	public Perceptron(int length, Escada escada) {
+	public Perceptron(int length, Degrau escada) {
 		Random rand = new Random();
 		this.validador = escada;
 		this.wDentritos = new double[length];

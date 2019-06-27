@@ -1,6 +1,6 @@
 package br.com.rn.validador;
 
-public class Escada implements Validador {
+public class Degrau implements Validador {
 
 	@Override
 	public int validar(Double somatorio, Double theta) {

@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 import br.com.rn.neurorio.Perceptron;
 import br.com.rn.nucleo.Main;
-import br.com.rn.validador.Escada;
+import br.com.rn.validador.Degrau;
 
 public class TreinadorIris extends Treinador {
 
@@ -49,7 +49,7 @@ public class TreinadorIris extends Treinador {
 
 		Boolean saidasOk;
 
-		Perceptron perceptron = new Perceptron(conjuntoEntradasTreino.get(0).length, new Escada());
+		Perceptron perceptron = new Perceptron(conjuntoEntradasTreino.get(0).length, new Degrau());
 		do {
 			erro = 0;
 			saidasOk = true;

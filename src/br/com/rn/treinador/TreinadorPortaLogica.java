@@ -1,7 +1,7 @@
 package br.com.rn.treinador;
 
 import br.com.rn.neurorio.Perceptron;
-import br.com.rn.validador.Escada;
+import br.com.rn.validador.Degrau;
 
 public class TreinadorPortaLogica extends Treinador {
 
@@ -12,7 +12,7 @@ public class TreinadorPortaLogica extends Treinador {
 
 		Boolean saidasOk;
 
-		Perceptron perceptron = new Perceptron(conjuntoEntradas[0].length, new Escada());
+		Perceptron perceptron = new Perceptron(conjuntoEntradas[0].length, new Degrau());
 		do {
 			saidasOk = true;
 			for (int i = 0; i < conjuntoEntradas.length; i++) {
